@@ -23,14 +23,14 @@
   </div>
 </template>
 <script>
-import {$, jQuery} from 'jquery'
+import $ from 'jquery'
 
 export default {
   name: 'WelcomePart',
   components: {
   },
   mounted() {
-    jQuery(".link_to_form").on("click", function(e) {
+    $(".link_to_form").on("click", function(e) {
       e.preventDefault();
       var el = $(this).attr('href');
       $('html, body').stop().animate({
@@ -39,14 +39,6 @@ export default {
     });
   },
   methods: function(){
-    $(".link_to_form").on("click", function() { //e
-      // e.preventDefault();
-      // var el = $(this).attr('href');
-      // $('html, body').stop().animate({
-      //   scrollTop: $(el).offset().top - 0
-      // }, 800);
-      $('html, body').animate();
-    });
   }
 }
 </script>
