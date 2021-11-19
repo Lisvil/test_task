@@ -382,3 +382,43 @@ body {
   opacity: 0;
 
 }
+.section_2_images {
+  position: absolute;
+  z-index: 10;
+  height: 100vh;
+  overflow: hidden;
+  .section_2_first_img {
+    position: relative;
+    top: 40%;
+    right: 3%;
+    @media (min-width: 360px) and (max-width: 576px) {
+      width: 93px;
+      height: 93px;
+      left: -53%;
+      top: 75%;
+    }
+  }
+  .section_2_second_img {
+    position: relative;
+    top: 10%;
+    left: 81%;
+
+    @media (min-width: 360px) and (max-width: 576px) {
+      width: 114px;
+      height: 91px;
+      left: 60%;
+      top: 0%;
+    }
+  }
+  .section_2_third_img {
+    position: relative;
+    top: 80%;
+    left: 40%;
+    @media (min-width: 360px) and (max-width: 576px) {
+      width: 107px;
+      height: 107px;
+      left: 30%;
+      top: 80%;
+    }
+  }
+}

@@ -2,6 +2,11 @@
   <div id="form">
     <div class="main">
       <div class=" row ">
+        <div class="section_2_images">
+          <img src="../assets/bg-forms/section_2-svg_1.svg" class="section_2_first_img">
+          <img src="../assets/bg-forms/section_2-svg_2.svg" class="section_2_second_img">
+          <img src="../assets/bg-forms/section_2-svg_3.svg" class="section_2_third_img">
+        </div>
         <div class="col">
           <p class="title"><span>Sign Up</span> and find the best place to rest while traveling</p>
           <div class="form"  id="reg_form">

@@ -88,6 +88,49 @@
   background-size: cover;
   width: 100%;
   position: absolute;
+  overflow: hidden;
   top: 0;
   z-index: 0;
 }
+  .section_img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 15;
+    height: 100vh;
+    overflow: hidden;
+
+    .section_1_first_img {
+      position: relative;
+      left: 80%;
+      top: -7%;
+      @media (min-width: 360px) and (max-width: 576px) {
+        width: 86px;
+        height: 122px;
+        left: -4%;
+        top: 2%;
+      }
+    }
+    .section_1_second_img {
+      position: relative;
+      top: 20%;
+      right: 13%;
+      @media (min-width: 360px) and (max-width: 576px) {
+        width: 99px;
+        height: 78px;
+        left: 60%;
+        top: 10%;
+      }
+    }
+    .section_1_third_img {
+      position: relative;
+      top: 70%;
+      left: 67%;
+      @media (min-width: 360px) and (max-width: 576px) {
+        width: 93px;
+        height: 93px;
+        left: -53%;
+        top: 75%;
+      }
+    }
+  }

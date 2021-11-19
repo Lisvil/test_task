@@ -12,14 +12,15 @@
           </div>
         </div>
       </div>
-      <!-- <div class="section_img">
-        <img src="../assets/bg-forms/section_1-svg_1.svg" class="section_1_first_img">
-        <img src="../assets/bg-forms/section_1-svg_2.svg" class="section_1_second_img">
-        <img src="../assets/bg-forms/section_1-svg_3.svg" class="section_1_third_img">
-      </div> -->
 
   </div>
-  <div class="parallax" v-parallax="0.5"></div>
+  <div class="parallax" v-parallax="0.5">
+    <div class="section_img">
+      <img src="../assets/bg-forms/section_1-svg_1.svg" class="section_1_first_img">
+      <img src="../assets/bg-forms/section_1-svg_2.svg" class="section_1_second_img">
+      <img src="../assets/bg-forms/section_1-svg_3.svg" class="section_1_third_img">
+    </div>
+  </div>
   </div>
 </template>
 <script>
