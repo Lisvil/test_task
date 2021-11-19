@@ -1,0 +1,93 @@
+.welcome_part {
+  height: 100vh;
+  // background-image: url('../assets/img-bgs/bg-1.jpg');
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+
+  .row {
+    @extend %position_center;
+      @media (min-width: 360px) and (max-width: 576px) {
+        padding: 0;
+        margin: 0;
+      }
+    .col {
+      text-align: center;
+      .welcome_part__info {
+        z-index: 100;
+        .logo {
+          margin: 0 auto;
+          img {
+            width: 190px;
+            height: 48px;
+          }
+        }
+        @media (min-width: 360px) and (max-width: 576px) {
+          .logo {
+            img {
+              width: 120px;
+              height: 30px;
+            }
+          }
+        }
+        @extend %text_with_span;
+        p {
+          font-weight: 500;
+          font-size: 62px;
+          width: 649px;
+          margin: 50px auto;
+        }
+        #registration_btn {
+          width: 214px;
+          height: 56px;
+          border: 2px solid $main-color;
+          border-radius: 5px;
+          background: $elements_bg;
+          color: $main-color;
+          font-size: 19px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease;
+
+          &:hover {
+            background-color: $main-color;
+            color: #000000;
+          }
+        }
+        @media (min-width: 360px) and (max-width: 576px) {
+          .logo {
+            width: 120px;
+            height: 30px;
+          }
+          p {
+            font-size: 30px;
+            width: 314px;
+          }
+          #registration_btn {
+            width: 330px;
+            height: 48px;
+          }
+        }
+      }
+    }
+  }
+  .section_img {
+    z-index: 100;
+    img {
+      // width: 220px;
+      // height: 174px;
+    }
+  }
+}
+.main_div {
+  position: relative;
+}
+.parallax {
+  height: 100vh;
+  background-image: url('../assets/img-bgs/bg-1.jpg');
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
